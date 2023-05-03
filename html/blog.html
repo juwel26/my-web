@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../css/blog.css">
+
+    <style>
+        #jj {
+            margin-top: 10px;
+            color: crimson;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- -------------------------------navbar-------------------------- -->
+    <nav>
+        <div class="main-menu">
+            <a href="../index.html"><img src="../image/programming (1).png" height="70" alt=""></a>
+            <ul id="nav-list" class="list">
+                <li><a href="../index.html"> HOME</a></li>
+                <li><a href="./About Me.html"> ABOUT</a></li>
+                <li><a href="../html/blog.html"> BLOG</a></li>
+                <li><a href="./contactMe.html"> CONTACT</a></li>
+
+
+            </ul>
+            <h1 class="juwel">Juwel Rana</h1>
+
+            <a href="mailto: juwelrana3426@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+            <i id="three-dought" class="bi bi-three-dots-vertical "></i>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    </div>
+
+
+    <p id="jj"></p>
+    <div>
+        <a href="../index.html">
+            <button>
+                <= Go Home </button>
+        </a>
+        <h1> New project ....</h1>
+
+
+    </div>
+    
+
+    <video width="320" height="240" autoplay loop>
+        <source src="../videos/coming-soon-4954344-4127964.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+    
+
+
+
+<footer>
+        <span> &copy; 2021 -
+            <script>document.write(new Date().getFullYear())</script> Juwel Rana.
+        </span>
+
+
+    </footer>
+</body>
+
+<!-- toggle js -->
+<script>const toggle = document.getElementById('three-dought');
+    const menu = document.getElementById('nav-list');
+
+    toggle.addEventListener('click', function () {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        }
+        else {
+            menu.style.display = 'block'
+        }
+    })</script>
+
+
+<!-- day wish js -->
+<script>
+
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+        greet = 'Good Morning';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good night';
+
+    document.getElementById('jj').innerHTML = '<b>' + greet + '</b>';
+</script>
+
+
+</html>
