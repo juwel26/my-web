@@ -95,6 +95,9 @@ transition: 1s;
   z-index: 9999;
   font-size: 50px;
   text-align: center;
+  background: -webkit-linear-gradient(#ffffff, #fc237d, #be1632);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .banner p{
   text-align: center;
@@ -205,12 +208,16 @@ a.click-class {
   margin-top: 0px;
   padding: 25px 0px;
   text-align: center;
+  background: #154DCF;
+background: linear-gradient(to top left, #1356f3 19%, #CF175A 95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 }
 .service-header button{
   height: 3px;
   width: 63px;
-  background: #3a3939;
+  background: #00aff5;
   text-align: center;
   align-items: center;
   justify-content: center;
