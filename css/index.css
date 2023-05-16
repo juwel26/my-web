@@ -137,6 +137,15 @@ transition: 1s;
   margin: auto;
   margin-bottom: 15px;
 }
+button.aboutGmail {
+  border: none;
+  background: #00c3c3;
+  border-radius: 10px;
+  height: 35px;
+  width: 240px;
+  font-family: sans-serif;
+  color: white;
+}
 
 .button-div {
   /* text-align: center; */
