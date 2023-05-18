@@ -104,22 +104,46 @@ input:focus {
 }
 
 button {
-  height: 30px;
+  /* height: 30px;
   width: 350px;
   border: none;
   background-color: crimson;
   color: rgb(255, 255, 255);
   border-radius: 5px;
   margin: 20px 0px 20px 0px !important;
-  font-size: 15px;
+  font-size: 15px; */
+
+
+  /* padding: 10px 25px; */
+  height: 40px;
+  width: 350px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px 0px 20px 0px;
+  margin-top: 10px !important;
+  border:none;
+
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+  text-align: center;
+  text-transform: uppercase !important;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
 }
 
 button:hover {
-  background-color: rgb(255, 196, 0);
+  /* background-color: rgb(255, 196, 0);
   color: crimson;
   transition: 0.4s;
   font-size: 15px !important;
-  border-radius: 5px;
+  border-radius: 5px; */
+
+  
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 #pp {

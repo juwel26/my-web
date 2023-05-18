@@ -126,7 +126,7 @@ transition: 1s;
 
  .about h2{
   padding: 10px 20px;
-  background-color: #ff4700;
+  background-color: #00c3c3;
   color: white;
   font-size: 25px;
   width: 222px;
@@ -159,7 +159,7 @@ button.aboutGmail {
 a.click-class {
   font-size: 16px;
   text-decoration: none;
-  background: #ff4700;
+  background: #00c3c3;
   color: white;
   display: inline-block;
   padding: 10px 20px;
@@ -176,8 +176,9 @@ a.click-class {
   width: 0;
   top: 0;
   left: 0;
+  border-radius: 10px;
   position: absolute;
-  background-color: #0d0f1b;
+  background-color: #0091d9;
   border-radius:10px ;
   transition: .4s;
   z-index: -1;
