@@ -17,7 +17,7 @@ toggle.addEventListener('click', function () {
 // 14 february event
 
 // Set the date we're counting down to
-var countDownDate = new Date("may 20, 2023 00:00:00").getTime();
+var countDownDate = new Date("jun 28, 2023 00:00:00").getTime();
 
 
 // Update the count down every 1 second
@@ -42,7 +42,7 @@ var x = setInterval(function () {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = `Exam day📝 `;
+    document.getElementById("demo").innerHTML = `Eid mubarak 🌙 `;
     document.getElementById("demo").style.color = 'white'
     document.getElementById('demo1').innerHTML = ' '
 
@@ -53,7 +53,7 @@ var x = setInterval(function () {
 
 setTimeout(()=>{
   document.getElementById("demo").innerHTML = " "
-},1544400000)
+},1641600000)
 
 
 // welcome function
