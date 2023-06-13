@@ -114,6 +114,11 @@
             text-decoration: none;
   
 }
+
+.waitingForConnection {
+  animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+@keyframes blinker { to { opacity: 0; } }
 .bnnertext p{
   font-size: 18px;
     margin-bottom: 10px;
