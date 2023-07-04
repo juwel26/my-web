@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>contact me</title>
+</head>
+<style>
+
+</style>
+<body>
+    
+  <!-- -------------------------------navbar-------------------------- -->
+   <nav>
+    <div class="main-menu">
+      <a href="../index.html"><img src="../image/programming (1).png" height="70"  alt=""></a>
+      <ul id="nav-list" class="list">
+        <li><a href="../index.html"> HOME</a></li>
+        <li><a href="./About Me.html"> ABOUT</a></li>
+        <li><a href="#"> BLOG</a></li>
+        <!-- <li><a href="./html/contactMe.html"> CONTACT</a></li> -->
+        <li><a href="#">MY PROJECT</a></li>
+       
+      </ul>
+      <h1 class="juwel">Juwel Rana</h1>
+      
+      <a href = "mailto: juwelrana3426@gmail.com"><i class="bi bi-envelope-fill"></i></a> 
+      <i id="three-dought" class="bi bi-three-dots-vertical "></i>
+    </div>
+   </nav> 
+    <br>
+    <br>
+    <br>
+    
+   
+    
+
+  <!-- <div class="banner"> 
+       <h1> Welcome to my website</h1>
+       <p>thanks for visiting my website</p>
+       <h2>Juwel Rana</h2>
+       
+  </div> -->
+    
+  <div class="hlw ">
+     
+  </div>
+
+    <div class="container-fluid">
+        <div class="row contact-box">
+            
+                <h1 class="text-center py-4 px-2  ">Contact Me</h1>
+        
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5  ">
+                
+                <!-- contact form -->
+                <form method="post" autocomplete="off" name="google-sheet" class="contform" id="myForm">    
+                    <!-- name="developer juwel"   -->
+                  <!-- name -->
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    
+                    <input type="name" name="Name" class="form-control mb-3"id="name" placeholder="enter your name" required/>
+                     
+                    </div>
+                  
+      
+                  <!-- email -->
+                  <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" name="Email" class="form-control mb-3" id="email" placeholder="Your email"  required/>
+                     </div>
+                     
+                  <!-- subject -->
+                      
+         <div class="form-group">
+                    <label for="subject">Subject:</label> 
+                    <input type="text" name="Subject" class="form-control mb-3" id="subject" placeholder="subject"/>
+      
+                  </div>
+                  <!-- message -->
+                  <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control mb-3" id="message" name="Message" rows="5 " placeholder="write something..." required></textarea>
+                  </div>
+                  <!-- submit button -->
+                  <div class="form-group">
+                    <input type="submit" id="sub-btn" name="submit" class="btn bubbtn mb-3" value="submit" />
+                </div>
+                <p id="pt"> sending please wait sometime...</p>
+      
+               
+                </form>
+      
+
+
+            </div>
+
+
+                    <!-- img rightside -->
+
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7 text-center box2">
+                <img src="../image/services helpline.jpg" class="max-width-100% leftimg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- 
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxgzXpWFgtV3YZSVOVjX9NL1xsXq-pWsQ2dSP0Pou4K-DUfCEhtGz1-j71moqQzD2k/exec'
+            const form = document.forms['google-sheet']
+            const sbtn= document.getElementById('btn')
+          
+            form.addEventListener('submit', e => {
+            
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => 
+                alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+  
+            })
+           
+        </script>
+        <script>
+            const subtn = document.getElementById('sub-btn')
+            const show = document.getElementById('pt')
+            subtn.addEventListener('click', function(e){
+              setTimeout(() => {
+                  show.style.opacity = '1'
+              }, 1000);
+              setTimeout(() => {
+                  show.style.opacity = '0'
+              }, 5000);
+            })
+      
+        </script> -->
+
+        <script src="../js/contact.js"></script>
+
+        <script src="../js/index.js"></script>
+
+
+
+<!-- 
+<script>
+    let sh = document.getElementById('ss')
+    let b = document.getElementById("btn")
+   b.addEventListener('click', function(e){
+       b.innerText = 'sending..'
+    e.preventDefault()
+    setTimeout(()=>{
+        sh.innerHTML ='message sent succesfully!'
+        sh.style.backgroundColor = '#e37731'
+        b.innerHTML = 'sent'
+    },5000)
+  
+   })
+ 
+
+</script> -->
+</body>
+</html>
